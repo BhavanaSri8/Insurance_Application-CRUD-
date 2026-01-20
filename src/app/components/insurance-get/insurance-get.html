@@ -1,0 +1,31 @@
+<p>Total Records: {{ insurances.length }}</p>
+
+<h2>Insurance Policies</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Policy Name</th>
+      <th>Type</th>
+      <th>Holder</th>
+      <th>Email</th>
+      <th>Phone</th>
+      <th>Premium</th>
+      <th>Duration</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let i of insurances">
+      <td>{{ i.id }}</td>
+      <td>{{ i.policyName }}</td>
+      <td>{{ i.policyType }}</td>
+      <td>{{ i.policyHolder }}</td>
+      <td>{{ i.email }}</td>
+      <td>{{ i.phone }}</td>
+      <td>{{ i.premium }}</td>
+      <td>{{ i.duration }}</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,68 @@
+<div class="container">
+  <h2>Update Insurance</h2>
+
+  <!-- Load Section -->
+  <div class="load-section">
+    <label>Policy ID</label>
+    <input type="text" [(ngModel)]="id" name="id" placeholder="Enter Policy ID">
+    <button type="button" (click)="loadPolicy()">Load Policy</button>
+  </div>
+
+  <hr>
+
+  <!-- Form -->
+  <form (ngSubmit)="updatePolicy()">
+
+    <div class="form-group">
+      <label>Policy Name</label>
+      <input type="text" [(ngModel)]="insurance.policyName" name="policyName">
+    </div>
+
+    <div class="form-group">
+      <label>Policy Type</label>
+      <input type="text" [(ngModel)]="insurance.policyType" name="policyType">
+    </div>
+
+    <div class="form-group">
+      <label>Policy Holder</label>
+      <input type="text" [(ngModel)]="insurance.policyHolder" name="policyHolder">
+    </div>
+
+    <div class="form-group">
+      <label>Email</label>
+      <input type="email" [(ngModel)]="insurance.email" name="email">
+    </div>
+
+    <div class="form-group">
+      <label>Phone</label>
+      <input type="text" [(ngModel)]="insurance.phone" name="phone">
+    </div>
+
+    <div class="form-group">
+      <label>Premium</label>
+      <input type="number" [(ngModel)]="insurance.premium" name="premium">
+    </div>
+
+    <div class="form-group">
+      <label>Duration (Years)</label>
+      <input type="number" [(ngModel)]="insurance.duration" name="duration">
+    </div>
+
+    <div class="form-group">
+      <label>Coverage Amount</label>
+      <input type="number" [(ngModel)]="insurance.coverageAmount" name="coverageAmount">
+    </div>
+
+    <div class="form-group">
+      <label>Nominee Name</label>
+      <input type="text" [(ngModel)]="insurance.nomineeName" name="nomineeName">
+    </div>
+
+    <div class="form-group">
+      <label>Address</label>
+      <textarea [(ngModel)]="insurance.address" name="address"></textarea>
+    </div>
+
+    <button type="submit" class="update-btn">Update</button>
+  </form>
+</div>

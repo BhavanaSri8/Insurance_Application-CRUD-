@@ -1,0 +1,43 @@
+{
+  "insurances": [
+    {
+      "policyName": "Health Secure Plus",
+      "policyType": "Health",
+      "policyHolder": "Bhanu",
+      "email": "bhanu@gmail.com",
+      "phone": "9587426541",
+      "premium": 6000,
+      "duration": 7,
+      "coverageAmount": 500000,
+      "nomineeName": "Mother",
+      "address": "Khammam",
+      "id": "4a92"
+    },
+    {
+      "id": "P103",
+      "policyName": "Vehicle Shield",
+      "policyType": "Vehicle",
+      "policyHolder": "Amit Verma",
+      "email": "amit.verma@gmail.com",
+      "phone": "9988776655",
+      "premium": 3000,
+      "duration": 3,
+      "coverageAmount": 200000,
+      "nomineeName": "Neha Verma",
+      "address": "Delhi"
+    },
+    {
+      "id": "b2ce",
+      "policyName": "Life Protect Plan",
+      "policyType": "Life",
+      "policyHolder": "Bhanu",
+      "email": "bhanu@gmail.com",
+      "phone": "9812376543",
+      "premium": 5000,
+      "duration": 6,
+      "coverageAmount": 500000,
+      "nomineeName": "Mother",
+      "address": "Kurnool"
+    }
+  ]
+}

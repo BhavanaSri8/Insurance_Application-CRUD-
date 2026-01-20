@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: linear-gradient(135deg, #e3f2fd, #f9fbff);
+}
+
+/* Main wrapper */
+.app-shell {
+  min-height: 100vh;
+  padding-bottom: 40px;
+}
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+
+  /* Background image */
+  background-image: url('assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Optional overlay to make content readable */
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
+}
+
+.page-wrapper {
+  padding: 30px 20px;
+}
